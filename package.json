@@ -1,0 +1,14 @@
+{
+  "name": "crockpot-from_english",
+  "version": "0.0.1",
+  "description": "Converts english numbers to integers",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'tap spec/mainSpecs.js -- --cov' index.js"
+  },
+  "author": "James Youn <jamesyoun710@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tap": "7.1.2"
+  }
+}

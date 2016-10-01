@@ -1,0 +1,10 @@
+var tap = require('tap')
+var fromEnglish = require('../index.js')
+
+tap.equal(fromEnglish('four'), 4)
+tap.equal(fromEnglish('a hundred'), 100)
+tap.equal(fromEnglish('fourty two'), 42)
+tap.equal(fromEnglish('five hundred fifty-two'), 552)
+tap.equal(fromEnglish('fourteen'), 14)
+tap.equal(fromEnglish('two-hundred thousand eight-hundred and forty-two'), 200842)
+tap.equal(fromEnglish('two-hundred fifty-two thousand eight-hundred and forty-two'), 252842)
