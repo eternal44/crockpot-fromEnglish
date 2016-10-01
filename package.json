@@ -1,5 +1,5 @@
 {
-  "name": "crockpot-from_english",
+  "name": "crockpot-fromEnglish",
   "version": "0.0.1",
   "description": "Converts english numbers to integers",
   "main": "index.js",
